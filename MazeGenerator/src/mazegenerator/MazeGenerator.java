@@ -68,6 +68,13 @@ public class MazeGenerator {
         printMaze();
         printPath();
         
+        
+        // K Chen - 18 by 18 maze
+        n = 18;
+        makeMaze();
+        printMaze();
+        printPath();
+        
     }
 
     private static void makeMaze() {
